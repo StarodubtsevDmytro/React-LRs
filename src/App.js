@@ -8,6 +8,7 @@ function App() {
       <section className="container">
         <h3>{people.length} birthdays today</h3>
         <List people={people} />
+        <p>New birthdays!!!!!!!!!</p>
         {/* <button onClick={() => console.log("first LR")}>Clear All</button> */}
          <button onClick={() => setPeople([])}>Clear All</button>
       </section>
@@ -16,3 +17,4 @@ function App() {
 }
 
 export default App;
+
